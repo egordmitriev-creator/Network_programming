@@ -50,7 +50,6 @@ int main(int argc, char* argv[]) {
             buffer[bytes] = '\0';
 
             std::cout << buffer;
-            // Добавляем перенос строки, если в сообщении его не было
             if (buffer[bytes - 1] != '\n') std::cout << std::endl;
         }
         std::cout << "Disconnected from server.\n";
